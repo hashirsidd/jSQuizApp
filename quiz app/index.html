@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="navbar navbar-inverse">
+            
+        </nav>
+     <div class="home conainer-fluid" id="home">
+        <img src="download.png" class="image">     
+        <h3>Start Quiz</h3>
+        <input  type="button" value="Start Quiz" onclick="display(); timer()">
+    </div>   
+    <div id="quizContainer" id="container" class="container" style="display: none;">
+        <span Id="timer">05:00</span>
+        <div class="ques-container">
+            <p>
+                <span style="color: #fff;">Question-1.</span> <span id="question" class="question"></span></p>
+        </div>
+        <div class="ans-container">
+          <form action="">
+          <label class="Option"><input name="Option" id="rad1" value="1" type="radio"> 1- <span id="opt1"></span> </label> <br>
+          <label class="Option"><input name="Option" id="rad2" value="2" type="radio"> 2- <span id="opt2"></span> </label> <br>
+          <label class="Option"><input name="Option" id="rad3" value="3" type="radio"> 3- <span id="opt3"></span> </label> <br>
+          <label class="Option"><input name="Option" id="rad4" value="3" type="radio"> 4- <span id="opt4"></span> </label> <br>
+                <input id="nextButton"  type="button" value="next" class="next" onclick="loadNextQuestion();" >
+          </form>
+        </div>
+    </div>
+    <div id="result" class="result" style="display: none;"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+   
+    <script src="questions.js"></script>
+   
+    <script src="app.js"></script>
+</body>
+</html>

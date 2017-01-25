@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(wal1.jpg);
+}
+.container{
+    background-color: rgba(236, 236, 236, 0.65);
+    border-radius: 40px;
+}
+#timer{
+    float: right;
+    position: relative;
+    top: 20px;
+    right:20px;
+    padding: 10px;
+    background-color: rgb(147, 151, 154);
+    border-radius: 5px;
+    font-size: 2em; 
+}
+/*.q-container{
+    border: 1px solid;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+.a-container{
+    border: 1px solid;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}*/
+    .ques-container{
+    font-size: 1.5em;   
+    margin: 50px auto;
+    width: 850px;  
+    padding: 20px 10px;
+    background-color: rgba(147, 151, 154, 0.14);
+    border-radius: 10px;
+    padding-bottom: 8px;
+    }
+    #home{
+    background-color: #fff;
+    height:600px ;
+	font-size: 1.5em;   
+    margin: 50px auto;
+    width: 850px;  
+    padding: 20px 10px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    }
+    .image{
+        top: 50px;
+        left: 265px;
+    position: relative;
+    }
+    .home h3{
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        top:100px;
+    }
+    .home input{
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        top:100px;
+    }
+    .home input{
+        font-size: 1.2em;
+        left: 345px;
+        top: 150px;
+    }
+    .ans-container {
+    margin: 10px auto;
+    width: 850px;  
+    line-height: 2em;
+    }
+    .ans-container input{
+        margin-top: 20px;
+    }
+    .result{
+    color: #fff;
+    width: 850px;  
+    margin: 50px auto;
+    padding: 20px 10px;
+    background-color: rgb(147, 151, 154);
+    border-radius: 10px;
+    padding-bottom: 8px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    top: 250px;
+    }
+    .next{
+    color: #000;
+    background: rgba(8, 8, 8, 0.47);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: -2px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    }
+/*for mobile size*/
+@media only screen and (max-width : 320px) {
+.ques-container{
+    font-size: 1.2em;   
+    margin: 20px auto;
+    width: 100%;  
+    padding: 20px 5px;
+    border-radius: 21px;
+    }    
+    .ans-container{
+    margin: 5px auto;
+    width: 100%;  
+    line-height: 2em;
+    }
+    .ans-container input{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #timer{
+    top: -20px;
+    right:20px;
+    padding: 0 2px;
+    font-size: 1.2em;
+    }
+    #home{
+    background-color: #fff;
+    height: 400px;
+    font-size: 1.5em;
+    margin: 50px auto;
+    width: 350px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    }
+    .image{
+        left: 17px;
+    position: relative;
+    }
+    .home input{
+    font-size: 1.2em;
+    left: 30%;
+    top: 120px;
+}
+    /*.home h3{
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        top:10px;
+    }
+    .home input{
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        top:100px;
+    }*/
+}
