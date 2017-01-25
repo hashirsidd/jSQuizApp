@@ -1,37 +1,37 @@
 var questions =[{
-    "question" : 'Which number should come next in the series? <br> 1 , 1 , 2 , 3 , 5 , 8 , 13 ' ,
-    "option1" : '20' ,
-    "option2" : '21' ,
-    "option3" : '22' ,
-    "option4" : 'I dont know (I am Idiot)',
-    "answer"  : "2"
+    "question" : 'The brain of any computer system is ' ,
+    "option1" : 'ALU' ,
+    "option2" : 'Memory' ,
+    "option3" : 'CPU' ,
+    "option4" : 'Control unit',
+    "answer"  : "3"
 }, {
-    "question" : 'If you rearrange the letters "CIFAIPC" you would have the name of a(n):' ,
-    "option1" : '20' ,
-    "option2" : '21' ,
-    "option3" : '22' ,
-    "option4" : 'I dont know (I am Idiot)',
-    "answer"  : "2"
+    "question" : 'What difference does the 5th generation computer have from other generation computers?' ,
+    "option1" : 'Technological advancement' ,
+    "option2" : 'Scientific code' ,
+    "option3" : 'Object Oriented Programming' ,
+    "option4" : 'All of the above',
+    "answer"  : "1"
 }, {
-    question : 'John needs 13 bottles of water from the store. John can only carry 3 at a time. What is the minimum number of trips John needs to make to the store?' ,
-    "option1" : '20' ,
-    "option2" : '21' ,
-    "option3" : '22' ,
-    "option4" : 'I dont know (I am Idiot)',
+    question : 'Which of the following computer language is used for artificial intelligence?' ,
+    "option1" : 'FORTRAN' ,
+    "option2" : 'PROLOG' ,
+    "option3" : 'COBOL' ,
+    "option4" : 'C',
     "answer"  : "2"
 }, {
     
-    "question" : 'Choose the number that is 1/4 of 1/2 of 1/5 of 200: ' ,
-    "option1" : '20' ,
-    "option2" : '21' ,
-    "option3" : '22' ,
-    "option4" : 'I dont know (I am Idiot)',
-    "answer"  : "2"
+    "question" : 'Which part interprets program instructions and initiate control operations. ' ,
+    "option1" : 'Input' ,
+    "option2" : 'Storage unit' ,
+    "option3" : 'Logic unit' ,
+    "option4" : 'Control unit',
+    "answer"  : "4"
 }, {
-    "question" : 'If all Blo"ops" are Razzies and all Razzies are Lazzies, then all Blo"ops" are definitely Lazzies?' ,
-    "option1" : '20' ,
-    "option2" : '21' ,
-    "option3" : '22' ,
-    "option4" : 'I dont know (I am Idiot)',
-    "answer"  : "2"
+    "question" : 'The binary system uses powers of' ,
+    "option1" : '2' ,
+    "option2" : '10' ,
+    "option3" : '8' ,
+    "option4" : '16',
+    "answer"  : "1"
 }]

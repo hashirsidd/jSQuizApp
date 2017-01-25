@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Quiz App</title>
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
         <nav class="navbar navbar-inverse">
@@ -13,13 +14,13 @@
      <div class="home conainer-fluid" id="home">
         <img src="download.png" class="image">     
         <h3>Start Quiz</h3>
-        <input  type="button" value="Start Quiz" onclick="display(); timer()">
+        <input class="startButton" type="button" value="Start Quiz" onclick="display(); timer()">
     </div>   
     <div id="quizContainer" id="container" class="container" style="display: none;">
         <span Id="timer">05:00</span>
         <div class="ques-container">
             <p>
-                <span style="color: #fff;">Question-1.</span> <span id="question" class="question"></span></p>
+                <span style="color: #fff;">Question-</span> <span id="question" class="question"></span></p>
         </div>
         <div class="ans-container">
           <form action="">

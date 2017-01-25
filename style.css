@@ -15,7 +15,7 @@ body{
     padding: 10px;
     background-color: rgb(147, 151, 154);
     border-radius: 5px;
-    font-size: 2em; 
+    font-size: 1em; 
 }
 /*.q-container{
     border: 1px solid;
@@ -29,6 +29,16 @@ body{
     display: block;
     margin: 0 auto;
 }*/
+    .startButton{
+    color: #fff;
+    background: rgba(8, 8, 8, 0.47);
+    border-radius: 5px;
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 1em;
+    }
     .ques-container{
     font-size: 1.5em;   
     margin: 50px auto;
@@ -54,7 +64,7 @@ body{
     position: relative;
     }
     .home h3{
-        font-size: 2em;
+        font-size: 3em;
         text-align: center;
         position: relative;
         top:100px;
@@ -63,12 +73,11 @@ body{
         font-size: 2em;
         text-align: center;
         position: relative;
-        top:100px;
     }
     .home input{
         font-size: 1.2em;
-        left: 345px;
-        top: 150px;
+        left: 310px;
+        top: 200px;
     }
     .ans-container {
     margin: 10px auto;
@@ -104,8 +113,8 @@ body{
     transition: all 0.5s ease;
     }
 /*for mobile size*/
-@media only screen and (max-width : 320px) {
-.ques-container{
+@media screen and (max-width: 940px){
+    .ques-container{
     font-size: 1.2em;   
     margin: 20px auto;
     width: 100%;  
@@ -146,16 +155,18 @@ body{
     left: 30%;
     top: 120px;
 }
-    /*.home h3{
-        font-size: 2em;
-        text-align: center;
-        position: relative;
-        top:10px;
-    }
-    .home input{
-        font-size: 2em;
-        text-align: center;
-        position: relative;
-        top:100px;
-    }*/
+    .result {
+    color: #fff;
+    width: 70%;
+    margin: 50px auto;
+    background-color: rgb(147, 151, 154);
+    border-radius: 10px;
+    padding-bottom: 8px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 250px;
+    padding-top: 5px;
+}
 }

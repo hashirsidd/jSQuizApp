@@ -53,9 +53,6 @@ function loadNextQuestion(){
 loadQuestion(currentQuestion);
 
 function timer(){
-    
-    // div.style.display = "Block";
-    // butn.style.display = "none";
     var min = 4;
     var sec = 59;
     var int = setInterval(function(){
@@ -74,7 +71,7 @@ function timer(){
         
          if(min < 0){
             clearInterval(int);
-            time.innerHTML = "Time Finished...!";
+            time.innerHTML = "Time Out";
             result();
         
         }
